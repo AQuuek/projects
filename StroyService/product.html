@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="assets/css/style.css" rel="stylesheet" >
+	<link href="assets/css/product.css" rel="stylesheet" >
+	<title>Проект</title>
+</head>
+
+<body>
+<!-- header -->
+
+<!-- main -->
+
+<div class="container-fluid">
+	<div class="row justify-content-center">
+		<div id="myModal" class="modal">
+			<div class="modal-content">
+				<div class="popup-header">
+					<span style="vertical-align: middle;">Заказать звонок</span>
+					<button type="button" class="close" aria-label="Close">
+  						<span aria-hidden="true" class="close-icon" style="margin-bottom:6px;">&times;</span>
+					</button>
+				</div>
+				<form class="modal-body" action="#">
+					<div class="input-conteiner">
+						<i class="fas fa-user"></i>
+						<input class="popup-input" type="text" placeholder="user">
+					</div>
+					<div class="input-conteiner">
+						<i class="fas fa-at"></i>
+						<input class="popup-input" type="text" placeholder= "example@mail.ru">
+					</div>	
+					<div class="input-conteiner">
+						<i class="fas fa-phone-alt"></i>
+						<input class="popup-input" type="text" placeholder="+7(918)-111-22-33">
+					</div>		
+					<textarea class="input-conteiner" name="" id="#" placeholder="Ваше сообщение"></textarea>
+					<button class="btn-popup-form">ОТПРАВИТЬ ЗАЯВКУ</button>
+				</form>
+			</div>
+		</div>
+
+		<h2 class="text-center" style="margin-top:40px; margin-bottom:40px;">Проект №1 Дом 8х9</h2>
+		<div class="col-xxl-2"></div>
+		<div class="col-xxl-4 col-lg-12 img-container" style="margin-bottom:30px;">
+			<div class="product-img-max d-flex mb-auto">
+				<img id="img-product-max" src="assets/img/house/1house1.png" alt="house-img">
+			</div>
+			<div class="d-flex flex-column">
+				<div class="img-row">
+					<div><img class="img-product-item" src="assets/img/house/slider-product8.png" alt="house-img"></div>
+					<div><img class="img-product-item" src="assets/img/house/slider-product1.png" alt="house-img"></div>
+					<div><img class="img-product-item" src="assets/img/house/slider-product2.png" alt="house-img"></div>
+					<div><img class="img-product-item" src="assets/img/house/slider-product3.png" alt="house-img"></div>
+				</div>
+				<div class="img-row" >
+					<div><img class="img-product-item" src="assets/img/house/slider-product4.png" alt="house-img"></div>
+					<div><img class="img-product-item" src="assets/img/house/slider-product5.png" alt="house-img"></div>
+					<div><img class="img-product-item" src="assets/img/house/slider-product6.png" alt="house-img"></div>
+					<div><img class="img-product-item" src="assets/img/house/slider-product7.png" alt="house-img"></div>
+				</div>			
+			</div>
+		</div>
+		<div class="col-xxl-4 col-lg-12 product-desc">
+			<div class="tabs-wrapper">
+				<input class="input-product" type="radio" name="tabs" id="tab-1" checked>
+     			<input class="input-product" type="radio" name="tabs" id="tab-2">
+     			<label class="tab" for="tab-1" >Описание</label>
+     			<label class="tab" for="tab-2">Характеристики</label>
+				<div class="ProductTabContent ProductContent1">
+					<ul class="desc-ul">
+						<li class="p-2 li-product-active">&mdash; Современный и просторный дом, выполненный с песчанного и серого кирпича выделит вас из серой массы обычных домов;</li>
+						<li class="p-2">&mdash; Дом подойдёт для большой семьи, планировка включает в себя 1 спальню и 2 детской комнаты а также просторное помещение для отдыха всех членов семьи;</li>
+						<li class="p-2 li-product-active">&mdash; Материалы используемые в строительстве не дорогие и надежные, отчего строительство дома доступно по более низкой цене;</li>
+						<li class="p-2">&mdash; Удобно наличие 2х входов — парадный и служебный. В доме есть тамбур, в котором можно разуться и оставить верхнюю одежду;</li>
+						<li class="p-2 li-product-active">&mdash; Терраса: где в тёплую погоду, можно расположится и выпить чаю, компанией или семьёй, и от куда попасть в гостинную;</li>
+					</ul>
+				</div>
+				<div class="ProductTabContent ProductContent2">
+					<table class="p-5" style="margin-left:20px;">
+						<tr class="li-product-active">
+							<td class="p-2">Площадь</td>
+							<td class="p-2">70 м<sup>2</sup></td>
+						</tr>							
+						<tr>
+							<td class="p-2">Этажи</td>
+							<td class="p-2">1</td>
+						</tr>							
+						<tr class="li-product-active">
+							<td class="p-2">Материал стен</td>
+							<td class="p-2">Кирпич</td>
+						</tr>							
+						<tr>
+							<td class="p-2">Крыша</td>
+							<td class="p-2">Металлочерепица</td>
+						</tr>							
+						<tr class="li-product-active">
+							<td class="p-2">Фундамент</td>
+							<td class="p-2">Монолитный ленточный</td>
+						</tr>							
+						<tr>
+							<td class="p-2">Колличество окон</td>
+							<td class="p-2">11</td>
+						</tr>							
+						<tr class="li-product-active">
+							<td class="p-2">Колличество жилых помещений</td>
+							<td class="p-2">5</td>
+						</tr>							
+						<tr>
+							<td class="p-2">Наличие чердака</td>
+							<td class="p-2">есть</td>
+						</tr>							
+						<tr class="li-product-active">
+							<td class="p-2">Дымоход</td>
+							<td class="p-2">есть</td>
+							</tr>							
+						<tr>
+							<td class="p-2">Терасса</td>
+							<td class="p-2">есть</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="buy-box">
+				<div class="d-flex justify-content-start w-50" style="margin-left: 40px;">
+					<span class="product-price p-2" style="font-size:110%;">
+						5 000 000 руб.
+					</span>
+					<button class="btn-buy-product p-2" id="popupBtn">Купить</button>
+				</div>
+				<div class="d-flex align-items-center p-2">
+					<p class="p-2">За информацией о сроках строительства и оплате просьба обращаться к менеджерам по тел +7 (111) 222-33-44</p>
+				</div>
+			</div>
+		</div>				
+		<div class="col-xxl-2"></div>
+	</div>
+</div>
+
+<div class="my-margin"></div>
+
+<!-- footer -->
+<script src="https://kit.fontawesome.com/1956b6b93b.js" crossorigin="anonymous"></script>
+<script src="assets/js/product.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
