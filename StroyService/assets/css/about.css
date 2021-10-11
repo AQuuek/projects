@@ -86,7 +86,7 @@
 }
 
 @media screen and (max-width: 500px) {
-	.tab {font-size: 80%; padding: 3px}
+	.tab {font-size: 70%; padding: 3px}
 }
 
 .AboutTabContent {
