@@ -82,6 +82,7 @@
 	border-radius: 5px;
 	padding: 5px;
 	cursor: pointer;
+	flex-wrap: nowrap;
 }
 
 @media screen and (max-width: 500px) {
